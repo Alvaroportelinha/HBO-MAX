@@ -1,0 +1,367 @@
+h2{
+    margin-top: 10px;
+}
+h3{
+    margin: 20px;
+}
+span h3{
+    color: #c92cdb;
+}
+
+body {
+    background-color: rgb(37, 27, 73);
+    color: #fff;
+    margin: 0;
+    padding: 0; rgb(37, 27, 73);
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0px;
+    padding: 10px;
+z-index: index 1;
+ 
+
+
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    padding: 5px;
+
+}
+
+.acount {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding-right: 20px;
+}
+
+.button-assin {
+    background: linear-gradient(to right, rgb(201, 44, 219), darkblue);
+    border-radius: 30px;
+    padding: 8px;
+    margin-right: 5px;
+
+}
+
+
+.brand_icon {
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 120px;
+
+}
+
+.hellow {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+
+
+}
+
+.divider {
+    background: linear-gradient(to right, #c92cdb, darkblue);
+    height: 3px;
+    margin: 20px 80px;
+    align-self: center;
+
+}
+
+.assin_now {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    gap: 10px;
+
+    
+}
+.wegle:hover{
+    animation: none;
+    border: solid 1px greenyellow;
+    transition: 1.6s;
+cursor: pointer;
+    
+
+}
+.wegle{
+    padding: 10px 60px;
+    background-color: ;
+    animation: wiggle 2s linear infinite;
+    background: linear-gradient(to right, #c92cdb, darkblue);
+    border-radius: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    
+
+}
+@keyframes wiggle {
+        
+        10% {
+          transform: rotate(0);
+        }
+        15% {
+          transform: rotate(-15deg);
+        }
+        20% {
+          transform: rotate(10deg);
+        }
+        25% {
+          transform: rotate(-10deg);
+        }
+        30% {
+          transform: rotate(10deg);
+        }
+        35% {
+          transform: rotate(-10deg);
+        }
+        40%,
+        100% {
+          transform: rotate(0);
+        }
+    
+    
+}
+
+.plans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../img/background-movies-series.png);
+    background-size: cover;
+    background-color: rgba(37, 27, 73, 0.3);
+    background-blend-mode: multiply;
+    padding: 30px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    perspective: 2000px;
+    text-align: left;
+}
+
+.chose {
+    width: 230px;
+    height: 400px;
+    border-radius: 18px;
+    padding: 40px;
+    background: linear-gradient(to right, rgb(118, 56, 27), rgb(72, 9, 66), rgb(12, 12, 95));
+    transition: transform 0.5s ease-in-out;
+}
+.plan__button{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bolder;
+    font-weight: 800;
+
+}
+
+/* Quando o mouse passa sobre o Mobile, o Multitelas gira levemente para a esquerda */
+.cards:has(.chose.mobile:hover) .chose.multitelas {
+    transform: rotateY(-25deg);
+}
+
+/* Quando o mouse passa sobre o Multitelas, o Mobile gira levemente para a direita */
+.cards:has(.chose.multitelas:hover) .chose.mobile {
+    transform: rotateY(25deg);
+}
+
+
+.price {
+    display: flex;
+gap: 30px;
+}
+
+.chose u {
+
+    text-decoration: none;
+    align-items: center;
+    justify-content: ;
+    border: 1px solid #c92cdb;
+    margin-top: 8px;
+    padding: 3px;
+    border-radius: 8px;
+
+}
+
+.chose li {
+    padding: 6px;
+    margin-top: 2px;
+}
+
+.chose a {
+    margin-top: 30px;
+    padding: 8px;
+    background-color: #c92cdb;
+    border-radius: 40px;
+    text-align: center;
+}
+.moor{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+
+.universe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.brand__icon {
+    width: 200px;
+    height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.6s;
+    padding: 70px;
+  
+}
+
+.brand__icon:hover{
+width: 220px;
+}
+
+.brand1 {
+    background-image: url(../img/hbo-default_0.webp);
+
+   
+}
+
+.brand2 {
+    background-image: url(../img/MAX-Default.webp);
+}
+
+.brand3 {
+    background-image: url(../img/DC_Default.webp);
+}
+
+.brand4 {
+    background-image: url(../img/WB-Default.webp);
+}
+
+.brand5 {
+    background-image: url(../img/CN-Default.webp);
+}
+
+.brand6 {
+    background-image: url(../img/UCL-Default.webp);
+}
+
+.brand1:hover {
+    background-image: url(../img/hbo-hover_0.webp);
+}
+
+.brand2:hover {
+    background-image: url(../img/MAX-Hover.webp);
+}
+
+.brand3:hover {
+    background-image: url(../img/DC-Hover.webp);
+}
+
+.brand4:hover {
+    background-image: url(../img/WB-Hover.webp);
+
+}
+
+.brand5:hover {
+    background-image: url(../img/CN-Hover.png);
+}
+
+.brand6:hover {
+    background-image: url(../img/UCL-Hover.webp);
+
+
+}
+
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    color: rgb(98, 23, 168);
+    padding: 20px;
+    text-align: left;
+    background-color: rgb(17, 12, 35);;
+}
+
+.footer__link {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+   
+}
+footer a{
+    color: blueviolet;
+    padding: 10px;
+    ba
+}
+footer a:hover{
+color: #fff;
+transition: 0.7s;
+}
+
+.social img {
+    width: fit-content;
+}
+@media (min-width: 500px) {
+.footer__link{
+    display: flex;
+    flex-direction: row;
+}
+  }
