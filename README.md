@@ -1,7 +1,7 @@
 # HBO MAX - Site de Streaming
 
 Este é um projeto de site de streaming inspirado na interface da **HBO MAX**, desenvolvido para fins de aprendizado. O site possui uma página de login e opções de assinatura, oferecendo uma interface responsiva e funcional.
-veja o resultado
+veja o resultado https://alvaroportelinha.github.io/HBO-MAX/public/html/login.html
 
 ## Funcionalidades
 
