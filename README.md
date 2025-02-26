@@ -1,26 +1,36 @@
-# HBO MAX - Site de Streaming
+# 🎬 HBO MAX - Site de Streaming
 
-Este é um projeto de site de streaming inspirado na interface da **HBO MAX**, desenvolvido para fins de aprendizado. O site possui uma página de login e opções de assinatura, oferecendo uma interface responsiva e funcional.
-veja o resultado https://alvaroportelinha.github.io/HBO-MAX/public/html/login.html
+Este é um projeto inspirado na interface da **HBO MAX**, desenvolvido para fins de aprendizado. O site possui uma página de login, opções de assinatura e uma interface totalmente responsiva.
 
-## Funcionalidades
+🔗 **Acesse o projeto online:** [HBO MAX Clone](https://alvaroportelinha.github.io/HBO-MAX/)  
+🔗 **Página de login:** [Ver login](https://alvaroportelinha.github.io/HBO-MAX/public/html/login.html)
 
-- **Login**: Permite aos usuários se autenticar com um e-mail e senha.
-- **Assinatura**: Oferece a possibilidade de assinar o serviço diretamente na plataforma.
-- **Design Responsivo**: O layout se adapta a diferentes dispositivos, como desktops, tablets e smartphones.
-- **Links Sociais**: Inclui ícones de redes sociais, como Facebook, Twitter, Instagram e YouTube.
+---
 
-## Estrutura de Diretórios
+## 🚀 **Funcionalidades**
+
+✅ **Login** – Permite autenticação com e-mail e senha.  
+✅ **Design Responsivo** – Compatível com desktops, tablets e smartphones.  
+✅ **Links Sociais** – Ícones para Facebook, Twitter, Instagram e YouTube.  
+
+---
+
+## 🛠️ **Tecnologias Utilizadas**
+
+- **HTML5** – Estruturação do site.  
+- **CSS3** – Estilização e design responsivo.  
 
 
-## Tecnologias Utilizadas
 
-- **HTML5**: Estrutura básica da página.
-- **CSS3**: Estilização e design responsivo do site.
-- **JavaScript (futuro)**: Implementação de funcionalidades dinâmicas, como login e interatividade.
+**Abra o arquivo `index.html` no navegador**  
+Caso esteja a utilizar uma extensão de servidor local (Live Server no VS Code, por exemplo), basta iniciar o servidor e acessar o projeto.
 
-## Como Rodar o Projeto
+---
 
-1. Clone este repositório para sua máquina local:
-   ```bash
-   git clone https://github.com/Alvaroportelinha/HBO-MAX.git
+## 📞 **Contato**
+📧 Em caso de dúvidas ou sugestões, sinta-se à vontade para entrar em contato.
+alvaroportelinha@gmail.com
+
+---
+
+🚀 **HBO MAX Clone - Um projeto para aprimorar habilidades em desenvolvimento web!** 🍿
